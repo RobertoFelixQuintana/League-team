@@ -11,6 +11,7 @@ const MyButton = styled(Button)({
     border: 3,
     borderRadius:0,
     //Text 
+    height:'37px',
     fontSize: 22 ,
     letterSpacing:'3px',
     fontFamily:'family=BeaufortforLOL-Bold',
@@ -62,7 +63,7 @@ const MyButton = styled(Button)({
 export default function StyleButton() {
     return (
         <>
-        <div>
+        <div className='container-log'>
             <img src='https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/es_MX/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/es_MX/assets/lol-logo.png'
                  alt=''
                  style={LogoImg}
@@ -78,17 +79,18 @@ export default function StyleButton() {
                 alt='bar'
               />
             </div>
-        </div>
 
-         <div className='Buttom'>
-              <MyButton>COMIENZA AHORA</MyButton>  
-        </div> 
+          <div className='Button'>
+            <MyButton>COMIENZA AHORA</MyButton>  
+          </div> 
         
-        <div >
-          <footer className='Logo-log-footer'>
-            <img src='https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/es_MX/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/es_MX/assets/riotgames-logo-white-s.png'
-            alt='log-footer'
-            />
+          <footer>
+            <div className='Logo-log-footer'>
+               <img src='https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/es_MX/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/es_MX/assets/riotgames-logo-white-s.png'
+                  alt='log-footer'
+                  />
+            </div>
+
           </footer>
         </div>     
         </>

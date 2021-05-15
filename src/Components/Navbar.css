@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background:linear-gradient(90deg,rgb(28,27,27)0%, rgb(26,23,23) 100%);
+    height: 60px;
+    display: flex;
+    justify-content:left;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+.navbar-container{
+    height: 60px;
+    display:flex;
+    justify-content:center;
+    justify-items: center;
+    text-align:center;
+    max-width: 1500px;
+}
+.navbar-container img{
+    width: 70px;
+    padding:10px;
+    cursor:pointer;
+}
+.navbar-links{
+    margin: 7px 6px;
+    padding: 6px;
+    height:40px;
+    cursor:pointer;
+    text-decoration: none;
+    font-family: BeaufortW01-Regular;
+    color: #F9F9F9;
+    display:flex;
+    text-align: center;
+    justify-items:center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-links:hover{
+    text-shadow: .5px .5px;
+    filter: brightness(120%) saturate(120%);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+
+}
