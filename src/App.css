@@ -5,51 +5,5 @@
   margin: 0px;
 }
 html{
-  background-color: black;
+  background-color:beige;
 }
-/*Title log h1 */
-.Title-log h1{
-  font-family: BeaufortW01-Regular;
-}
-/*Div buttom */
-.Button{
-  width: 100%;
-  position: fixed;
-  text-align: center ;
-}
-/*buttom */
-.Button button{
-  height: fit-content;
-  font-family: BeaufortW01-Regular;
-}
-/*Div bar */
-.Bar-Log{
-  text-align: center;
-}
-/*bar img */
-.Bar-Log img{
-  position: relative;
-  width: 90vw;
-}
-/*log footer */
-.container-log footer{
-  width: 100%;
-}
-/*div logo log footer */
-.Logo-log-footer{
-  width: 100%;
-  height: 100px;  
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  padding-left:2vmax; 
-  justify-content:flex-end;
-}
-/*img logo footer*/
-.Logo-log-footer img{
-  position: static;
-  width:max-content;
-}
-
