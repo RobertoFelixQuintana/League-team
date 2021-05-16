@@ -23,7 +23,7 @@
     max-width: 1500px;
 }
 .navbar-container img{
-    width: 70px;
+    width: 90px;
     padding:10px;
     cursor:pointer;
 }
@@ -32,7 +32,6 @@
     padding: 6px;
     height:40px;
     cursor:pointer;
-    text-decoration: none;
     font-family: BeaufortW01-Regular;
     color: #F9F9F9;
     display:flex;
@@ -43,9 +42,16 @@
     text-transform: uppercase;
 }
 .navbar-links:hover{
+    text-decoration: none;
     text-shadow: .5px .5px;
     filter: brightness(120%) saturate(120%);
     border-bottom-width: 2px;
     border-bottom-style: solid;
-
+    color: #F9F9F9;
+}
+.sign-btn{
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    text-align: right;
 }
