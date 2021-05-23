@@ -1,0 +1,134 @@
+@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container-head{
+    width: 100%;
+    height: 170px;
+    background-image: url('https://i.ytimg.com/vi/uQySrgXec7Q/maxresdefault.jpg');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:28%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.span-head-champs{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height:170px;
+    color: white;
+    font-size: 3em;
+    font-family: BeaufortW01-Regular;
+    font-weight: 900;
+    letter-spacing: 14px;
+}
+.container-champs{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(40,41,45,255);
+}
+.card{
+    position:relative;
+    width: 230px;
+    height: 350px;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+    margin: 25px 10px 10px 10px;
+}
+/* imagenes enfoncadas a la derecha*/
+.card-r > img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 50%;
+    left:-5%;
+    transform: translate(-50%,-50%) scale(1.1);
+    transition: inherit;
+}
+/* imagenes enfocadas al medio*/
+.card-c > img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 50%;
+    left:44%;
+    transform: translate(-50%,-50%) scale(1.1);
+    transition: inherit;
+}
+.card-l > img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(1.1);
+    transition: inherit;
+}
+.card:hover {
+    transform: scale(1.1);
+    opacity: .85;
+}    
+.card:hover img{
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.img-description{
+    background-color: rgba(10,10,12,.9);
+    position:absolute;
+    top: 0;
+    padding: 8px;
+    width:auto;
+    height:100%;
+    font: 12px;
+    font-family: BeaufortW01-Regular;
+    font-weight: 900;
+    color:#927345;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .7s;
+}
+
+.img-description:hover{
+    opacity: .85;
+}
+.card h1{
+    position:absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    font-size: 22px;
+    font-family: BeaufortW01-Regular;
+    font-weight:bold;
+    letter-spacing: 5px;
+    color: #927345;
+    background-color: rgba(10,10,12,.9);
+    border-top: 1.5px solid #927345;
+    border-bottom: 1.5px solid #927345;
+    text-align: center;
+    padding: 10px 20px;
+    opacity: 1;
+}
+
+@media screen and (max-width:768px){
+    .span-head-champs{
+        letter-spacing: 7px;
+        height: 130px;
+        font-size: 1.5em;
+    }
+    .container-head{
+        height: 130px;
+    }
+}

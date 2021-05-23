@@ -1,0 +1,127 @@
+@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
+
+*{
+    font-family: BeaufortW01-Regular;
+    padding: 0px;
+    margin: 0px; 
+}
+.section-container{
+    width: 100%;
+    height:90.5vh;
+    display: grid;
+    grid-gap:20px;
+    grid-template-rows: 600px;
+    grid-template-columns: repeat(6,1fr); 
+    background-image:url('/src/img/irelia.jpg');
+}
+.container{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: white;
+    font-size: 20px;
+    background:linear-gradient(90deg,rgb(28,27,27)0%, rgb(26,23,23) 100%);
+    padding:auto;
+    padding-top: 30px;
+    margin:auto;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+    border-color: #c48c2c;
+    border-width: 3px;
+    border-style: solid;
+
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+
+    box-shadow: 7px 13px 37px #000;
+}
+.container label{
+    font-size: 34px;
+    letter-spacing:4px;
+}
+.container-btn button{
+    width: 70%;
+    background: #c48c2c;
+    border: none;
+    padding: 12px;
+    color:white;
+    margin:16px 0;
+}
+.controls{
+    width: 70%;
+    padding: 5px;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    border:1px solid #c48c2c;
+    font-weight: 900;
+    font-family: BeaufortW01-Regular;
+}
+.container-btn span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-btn span:hover{
+    text-decoration: none;
+    text-shadow: .5px .5px;
+    filter: brightness(120%) saturate(120%);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: #F9F9F9;
+}
+.container-accessForm{
+    background-image:url('/src/img/irelia.jpg');
+    width: 100%;
+    height:91vh;
+    display: grid;
+    text-align: center;
+    justify-content: center;    
+}
+.container-accessForm nav{
+    width: 100%;
+    height: 350px;
+    transform: translateY(26vh);
+}
+.container-accessForm h2{
+    color:white;
+    font-family:BeaufortW01-Regular;
+    font-size:4rem;
+}
+.container-accessForm button{
+    margin-top: 50px;
+    width: 80%;
+    height: 3rem;
+    border: 2px solid #c48c2c;
+    border-radius: 4px;
+    background-color: #000;
+    color: #c48c2c;
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.container-accessForm div{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.container-accessForm button:hover{
+    background-color: #c48c2c;
+    color: #000;
+    border: 2px solid #000;
+}
+@media screen and (max-width:768px){
+    .container{
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }
+    .container-accessForm h2{
+        color:white;
+        font-family:BeaufortW01-Regular;
+        font-size:3rem;
+    }
+} 

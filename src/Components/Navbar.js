@@ -36,11 +36,13 @@ function Navbar() {
                         </Link>
                     </div>               
                 </div>
-                <div className="sign-btn">
-                    <Link to="/Form" className="navbar-links" target="">
-                    Sign Up    
-                    </Link>
-                </div>             
+                <div className="navbar-container-btn">
+                    <div className="sign-btn">
+                        <Link to="/SignUp" className="navbar-links" target="">
+                        SignUp
+                        </Link>
+                    </div>   
+                </div>          
             </nav>
         </>
     )
