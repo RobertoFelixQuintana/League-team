@@ -13,6 +13,10 @@
     grid-template-rows: 600px;
     grid-template-columns: repeat(6,1fr); 
     background-image:url('/src/img/irelia.jpg');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
 }
 .container{
     grid-column-start: 3;
@@ -88,10 +92,12 @@
     color:white;
     font-family:BeaufortW01-Regular;
     font-size:4rem;
+    font-weight: 800;
+    letter-spacing: 5px;
 }
 .container-accessForm button{
     margin-top: 50px;
-    width: 80%;
+    width: 40%;
     height: 3rem;
     border: 2px solid #c48c2c;
     border-radius: 4px;
@@ -101,6 +107,7 @@
     font-size: 2rem;
     display: flex;
     justify-content: center;
+    letter-spacing: 3px;
 }
 .container-accessForm div{
     width: 100%;
@@ -120,8 +127,9 @@
         grid-column-end: 6;
     }
     .container-accessForm h2{
-        color:white;
+        color:#F9F9F9;
         font-family:BeaufortW01-Regular;
         font-size:3rem;
+        font-weight: 800;
     }
 } 

@@ -3,13 +3,14 @@ import fire from './Firebase';
 import FormValidation from './FormValidation';
 import AccessForm from './AccessForm';
 
+
 const Verification = () => {
     const[user, setUser] = useState('')
     const[email, setEmail] = useState('')
     const[password, setPassword] = useState('')
     const[emailError, setEmailError] = useState('')
     const[passwordError, setPasswordError] = useState('')
-    const[hasAccount, setHasAccount] = useState(false)
+    const[hasAccount, setHasAccount] = useState(true)
 
     //Limpia entradas
     const clearInputs = () => {
@@ -24,6 +25,7 @@ const Verification = () => {
 
     const HandleLogin = () =>{
       ClearErrors();
+      document.getElementById("btn-conexion").innerText="Log Out";
       fire.auth().signInWithEmailAndPassword(email, password)
            .catch(err => {
              switch(err.code){
@@ -42,6 +44,7 @@ const Verification = () => {
     const HandleSignup = () =>{
       ClearErrors();
       fire.auth().createUserWithEmailAndPassword(email, password)
+      
            .catch(err => {
              switch(err.code){
                case "auth/email-already-in-use":
@@ -57,8 +60,8 @@ const Verification = () => {
 
     const HandleLogout = () => {
       fire.auth().signOut();
+      document.getElementById("btn-conexion").innerHTML="Sign in";  
     }
-
     const authListener = () => {
       fire.auth().onAuthStateChanged((user)=> {
         if(user){
@@ -73,11 +76,10 @@ const Verification = () => {
 
     useEffect(() => {
       authListener();
-
     
     }, [])
     return (
-    
+      
         <div className="App">
           {user ? (
             <AccessForm HandleLogout={HandleLogout}/>
@@ -94,10 +96,12 @@ const Verification = () => {
              setHasAccount={setHasAccount}
              emailError={emailError}
              passwordError={passwordError}
+             
           />
           )}
-
+          
         </div>
+        
   )
 }
 

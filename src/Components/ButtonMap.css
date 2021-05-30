@@ -2,16 +2,16 @@
     max-width: 170%;
 }
 .container-map {
-    position: fixed;
+    position: relative;
     display: grid;
     justify-content: right;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 .card-map {
     position: relative;
-    background: #333;
-    width: 400px;
+    background:rgb(26,23,23);
+    width: 350px;
     height: 100vh;
     border-radius: 6px;
     padding: 2rem;
@@ -19,13 +19,60 @@
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
+.imgs-map{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgs-map img{
+    width: 40px;
+    border: #fff solid 1px;
+    margin: 0px 15px 8px 0px;
+}
 .card__image-container-map-btn1 {
     margin: -2rem -2rem 0rem -2rem;
     transform: translate(-50%,-10%) scale(1.1);
 }
 .card__image-container-map-btn2 {
-    margin: -2rem -2rem -6rem -2rem;
+    margin: -2rem -2rem -5rem -2rem;
     transform: translate(-50%,-15%) scale(1.1);
+}
+.card__image-container-map-btn3 {
+    margin: -2rem -2rem -4rem -2rem;
+    transform: translate(-30%,-18%) scale(1);
+}
+.card__image-container-map-btn4 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-50%,-23%) scale(1.1);
+}
+.card__image-container-map-btn5 {
+    margin: -2rem -2rem -5rem -2rem;
+    transform: translate(-50%,-23%) scale(1.1);
+}
+.card__image-container-map-btn6 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-50%,-23%) scale(1.1);
+}
+.card__image-container-map-btn7 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-85%,-30%) scale(1.1);
+}
+.card__image-container-map-btn8 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-50%,-27%) scale(1);
+}
+.card__image-container-map-btn9 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-55%,-23%) scale(1);
+}
+.card__image-container-map-btn10 {
+    margin: -2rem -2rem -6rem -2rem;
+    transform: translate(-30%,-23%) scale(1);
+}
+.card__image-container-map-btn11 {
+    margin: -2rem -2rem -7rem -2rem;
+    transform: translate(-50%,-17%) scale(.8);
 }
 .card__line__map {
     opacity: 0;
@@ -33,7 +80,7 @@
 }
 .card__image__map {
     opacity: 0;
-    animation: ImageFadeIn 0.8s 1.4s forwards;
+    animation: ImageFadeIn 0.4s .4s forwards;
 }
 .card__title__map {
     color: white;
@@ -65,7 +112,7 @@
     100% {
         opacity: 1;
         d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400");
-        stroke: #545581;
+        stroke: #ffffff;
    }
 }
 @keyframes ContentFadeIn {
@@ -93,4 +140,56 @@
         opacity: 1;
         filter: blur(0);
    }
+}
+@media screen and (max-width:768px){
+    .card-map {
+        width: 250px;
+    }
+    .card__image-container-map-btn1 {
+        margin: -2rem -2rem 0rem -2rem;
+        transform: translate(-50%,-10%) scale(1.1);
+    }
+    .card__image-container-map-btn2 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-50%,-15%) scale(1.1);
+    }
+    .card__image-container-map-btn3 {
+        margin: -2rem -2rem -2rem -2rem;
+        transform: translate(-30%,-18%) scale(1);
+    }
+    .card__image-container-map-btn4 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-50%,-23%) scale(1.1);
+    }
+    .card__image-container-map-btn5 {
+        margin: -2rem -2rem -2rem -2rem;
+        transform: translate(-50%,-23%) scale(1.1);
+    }
+    .card__image-container-map-btn6 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-50%,-23%) scale(1.1);
+    }
+    .card__image-container-map-btn7 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-85%,-30%) scale(1.1);
+    }
+    .card__image-container-map-btn8 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-50%,-27%) scale(1);
+    }
+    .card__image-container-map-btn9 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-55%,-23%) scale(1);
+    }
+    .card__image-container-map-btn10 {
+        margin: -2rem -2rem -3rem -2rem;
+        transform: translate(-30%,-23%) scale(1);
+    }
+    .card__image-container-map-btn11 {
+        margin: -2rem -2rem -4rem -2rem;
+        transform: translate(-50%,-17%) scale(.8);
+    }
+    .imgs-map img{
+        width: 30px;
+    }
 }

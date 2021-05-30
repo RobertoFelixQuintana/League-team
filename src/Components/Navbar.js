@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 
@@ -39,7 +39,9 @@ function Navbar() {
                 <div className="navbar-container-btn">
                     <div className="sign-btn">
                         <Link to="/SignUp" className="navbar-links" target="">
-                        SignUp
+                        <p id="btn-conexion">
+                            Sign In
+                        </p>
                         </Link>
                     </div>   
                 </div>          

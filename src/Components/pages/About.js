@@ -4,10 +4,10 @@ import './About.css';
 function About(){
     return(
         <>
-            <div className="App">
-              <header className="header">
+            <section className="about-container">
+              <div className="header">
                 <h1>LEAGUE TEAM</h1>
-              </header>
+              </div>
 
                 <div className="wrapper">
                     <div className='wrapper1'>
@@ -40,7 +40,7 @@ function About(){
                       <p>LEON RIVERA JOSHUA EMMANUEL</p>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }
