@@ -3,7 +3,7 @@
     margin: 0px;
 }
 .about-container{
-    height:fit-content;
+    height:100vh;
     background-image: url('/src/img/Fondo.jpg');
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -16,8 +16,8 @@
   
 .wrapper img{
     border-radius:5px;
-    padding:5px;
-    width:160px;
+    padding:4px;
+    width:170px;
     height:160px;
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -28,7 +28,7 @@
 .wrapper3:hover,
 .wrapper4:hover,
 .wrapper5:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .wrapper{
     text-align: center;
@@ -47,7 +47,7 @@
     Es el equivalente a los 2 anteriores
     grid-gap: 1em;
     */
-    opacity: .75;
+    opacity: .85;
     -moz-opacity: 0.8;
     filter: alpha(opacity=80);
     -khtml-opacity: 0.8;
