@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/League-team/static/css/main.6b4f9ce7.chunk.css",
-    "main.js": "/League-team/static/js/main.b04a14d6.chunk.js",
-    "main.js.map": "/League-team/static/js/main.b04a14d6.chunk.js.map",
+    "main.js": "/League-team/static/js/main.a033b42c.chunk.js",
+    "main.js.map": "/League-team/static/js/main.a033b42c.chunk.js.map",
     "runtime-main.js": "/League-team/static/js/runtime-main.fe5c977c.js",
     "runtime-main.js.map": "/League-team/static/js/runtime-main.fe5c977c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/League-team/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.946af2a0.chunk.js",
     "static/css/main.6b4f9ce7.chunk.css",
-    "static/js/main.b04a14d6.chunk.js"
+    "static/js/main.a033b42c.chunk.js"
   ]
 }
