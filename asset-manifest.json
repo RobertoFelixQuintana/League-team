@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/League-team/static/css/main.6b4f9ce7.chunk.css",
+    "main.css": "/League-team/static/css/main.75070b7c.chunk.css",
     "main.js": "/League-team/static/js/main.a033b42c.chunk.js",
     "main.js.map": "/League-team/static/js/main.a033b42c.chunk.js.map",
     "runtime-main.js": "/League-team/static/js/runtime-main.fe5c977c.js",
@@ -10,7 +10,7 @@
     "static/js/2.946af2a0.chunk.js.map": "/League-team/static/js/2.946af2a0.chunk.js.map",
     "index.html": "/League-team/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/League-team/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6b4f9ce7.chunk.css.map": "/League-team/static/css/main.6b4f9ce7.chunk.css.map",
+    "static/css/main.75070b7c.chunk.css.map": "/League-team/static/css/main.75070b7c.chunk.css.map",
     "static/js/2.946af2a0.chunk.js.LICENSE.txt": "/League-team/static/js/2.946af2a0.chunk.js.LICENSE.txt",
     "static/media/About.css": "/League-team/static/media/Fondo.1c53cf8f.jpg",
     "static/media/Champions.css": "/League-team/static/media/fondochamps.90674094.jpg",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.fe5c977c.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.946af2a0.chunk.js",
-    "static/css/main.6b4f9ce7.chunk.css",
+    "static/css/main.75070b7c.chunk.css",
     "static/js/main.a033b42c.chunk.js"
   ]
 }
