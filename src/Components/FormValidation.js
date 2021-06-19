@@ -37,7 +37,7 @@ const FormValidation = (props) => {
     return (   
         <section className='section-container'>
             
-            <div className='container'>
+            <div className='container-form'>
                 <div className='container-data'>
 
                     <label>Username</label><br></br>
