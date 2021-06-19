@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8c82a37.chunk.css",
+    "main.js": "/static/js/main.ffee0491.chunk.js",
+    "main.js.map": "/static/js/main.ffee0491.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.196838c9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.196838c9.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9e4b7bff.chunk.js": "/static/js/2.9e4b7bff.chunk.js",
+    "static/js/2.9e4b7bff.chunk.js.map": "/static/js/2.9e4b7bff.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d8c82a37.chunk.css.map": "/static/css/main.d8c82a37.chunk.css.map",
+    "static/js/2.9e4b7bff.chunk.js.LICENSE.txt": "/static/js/2.9e4b7bff.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/static/media/Fondo.1c53cf8f.jpg",
+    "static/media/Champions.css": "/static/media/fondochamps.90674094.jpg",
+    "static/media/SignUp.css": "/static/media/irelia.e0f69c82.jpg",
+    "static/media/Map.css": "/static/media/mapa.5cf1dd24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.196838c9.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9e4b7bff.chunk.js",
+    "static/css/main.d8c82a37.chunk.css",
+    "static/js/main.ffee0491.chunk.js"
+  ]
+}
