@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/League-team/static/css/main.466bb5e4.chunk.css",
-    "main.js": "/League-team/static/js/main.31251c97.chunk.js",
-    "main.js.map": "/League-team/static/js/main.31251c97.chunk.js.map",
+    "main.css": "/League-team/static/css/main.6b4f9ce7.chunk.css",
+    "main.js": "/League-team/static/js/main.b04a14d6.chunk.js",
+    "main.js.map": "/League-team/static/js/main.b04a14d6.chunk.js.map",
     "runtime-main.js": "/League-team/static/js/runtime-main.fe5c977c.js",
     "runtime-main.js.map": "/League-team/static/js/runtime-main.fe5c977c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/League-team/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.4fd23d03.chunk.js": "/League-team/static/js/2.4fd23d03.chunk.js",
-    "static/js/2.4fd23d03.chunk.js.map": "/League-team/static/js/2.4fd23d03.chunk.js.map",
+    "static/js/2.946af2a0.chunk.js": "/League-team/static/js/2.946af2a0.chunk.js",
+    "static/js/2.946af2a0.chunk.js.map": "/League-team/static/js/2.946af2a0.chunk.js.map",
     "index.html": "/League-team/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/League-team/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.466bb5e4.chunk.css.map": "/League-team/static/css/main.466bb5e4.chunk.css.map",
-    "static/js/2.4fd23d03.chunk.js.LICENSE.txt": "/League-team/static/js/2.4fd23d03.chunk.js.LICENSE.txt",
+    "static/css/main.6b4f9ce7.chunk.css.map": "/League-team/static/css/main.6b4f9ce7.chunk.css.map",
+    "static/js/2.946af2a0.chunk.js.LICENSE.txt": "/League-team/static/js/2.946af2a0.chunk.js.LICENSE.txt",
     "static/media/About.css": "/League-team/static/media/Fondo.1c53cf8f.jpg",
     "static/media/Champions.css": "/League-team/static/media/fondochamps.90674094.jpg",
     "static/media/SignUp.css": "/League-team/static/media/irelia.e0f69c82.jpg",
@@ -20,8 +20,8 @@
   "entrypoints": [
     "static/js/runtime-main.fe5c977c.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.4fd23d03.chunk.js",
-    "static/css/main.466bb5e4.chunk.css",
-    "static/js/main.31251c97.chunk.js"
+    "static/js/2.946af2a0.chunk.js",
+    "static/css/main.6b4f9ce7.chunk.css",
+    "static/js/main.b04a14d6.chunk.js"
   ]
 }
