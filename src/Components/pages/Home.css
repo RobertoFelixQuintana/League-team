@@ -90,4 +90,16 @@
         margin: 0px 8px 0px 8px;
     }
 } 
+@font-face {
+    font-family: "BeaufortW01-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot"); 
+    src: url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.woff") 
+    format("woff"), 
+    url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.ttf") 
+    format("truetype"), 
+    url("//db.onlinewebfonts.com/t/2c37f3699d9728b566e9bdc5b11e5180.svg#BeaufortW01-Regular") 
+    format("svg"); 
+}
 
