@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from 'react'
 import Navbar from './Components/Navbar';
-import {BrowserRouter as Router, Switch,Route} from 'react-router-dom'; 
+import {HashRouter, Switch,Route} from 'react-router-dom'; 
 import Home from './Components/pages/Home';
 import Champions from './Components/pages/Champions';
 import SignUp from './Components/pages/SignUp';
@@ -14,7 +14,7 @@ export class App extends Component {
   render() {
     return (
       <>    
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename="/League-team">
           <Navbar/>
           <Switch>
             <Route path='/' exact component={Home}/>
@@ -23,7 +23,7 @@ export class App extends Component {
             <Route path='/Map' exact component={Map}/>
             <Route path='/SignUp' exact component={SignUp}/>
           </Switch>
-        </Router>
+        </HashRouter>
       </>
     )
   }

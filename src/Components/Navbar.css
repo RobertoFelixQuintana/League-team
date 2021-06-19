@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
+
 *{
     padding: 0px;
     margin: 0px;
@@ -21,7 +21,6 @@
     justify-content:right;
     justify-items: center;
     text-align:center;
-
 }
 .navbar-container div{
     margin-right: 25px;

@@ -1,6 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular);
 *{
     padding: 0px;
     margin: 0px;
+    font-family: BeaufortW01-Regular;
 }
 
 .container-color{
@@ -13,7 +15,7 @@
     opacity: .65;
 }
 .carousel-container{
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     min-width: 500px;
     letter-spacing: 3px;
