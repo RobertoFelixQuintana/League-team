@@ -14,7 +14,7 @@ export class App extends Component {
   render() {
     return (
       <>    
-        <HashRouter basename="/League-team">
+        <HashRouter basename="/page">
           <Navbar/>
           <Switch>
             <Route path='/' exact component={Home}/>
