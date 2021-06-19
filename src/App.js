@@ -14,7 +14,7 @@ export class App extends Component {
   render() {
     return (
       <>    
-        <HashRouter basename="/page">
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Navbar/>
           <Switch>
             <Route path='/' exact component={Home}/>
