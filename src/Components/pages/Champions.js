@@ -20,7 +20,7 @@ export default function Champions(){
     
       }, []);
       /* Cambiar el boton activo de categorias*/
-      window.addEventListener('load', ()=>{
+      window.addEventListener('click', ()=>{
         const enlaces=document.querySelectorAll('#categorias button');
         enlaces.forEach((elemento)=>{
             elemento.addEventListener('click',(evento)=>{
