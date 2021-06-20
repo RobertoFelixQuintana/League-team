@@ -21,7 +21,7 @@ export default function Champions(){
       }, []);
       /* Cambiar el boton activo de categorias*/
       window.addEventListener('load', ()=>{
-        const enlaces=document.querySelectorAll('#categorias a');
+        const enlaces=document.querySelectorAll('#categorias button');
         enlaces.forEach((elemento)=>{
             elemento.addEventListener('click',(evento)=>{
                 evento.preventDefault();
@@ -72,74 +72,74 @@ export default function Champions(){
                     </div>
                 </div>
                 <div className="categorias" id="categorias">
-                    <a href="" class="active"
+                    <button class="active"
                     onClick={() => {
                       grid.filter("[data-categoria]");
                       }}
-                      >Todas</a>
-                    <a href=""
+                      >Todas</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='aguasturbias']");
                       }}
-                      >Aguasturbias</a>
-                    <a href=""
+                      >Aguasturbias</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='ciudad de bandle']");
                       }}
-                      >Ciudad de Bandle</a>
-                    <a href=""
+                      >Ciudad de Bandle</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='demacia']");
                       }}
-                      >Demacia</a>
-                    <a href=""
+                      >Demacia</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='el freljord']");
-                      }}>El Fréljord</a>              
-                    <a href=""
+                      }}>El Fréljord</button>              
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='el vacio']");
                       }}
-                      >El vacio</a>
-                    <a href=""
+                      >El vacio</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='islas de la sombra']");
                       }}
-                      >Islas de la sombra</a>
-                    <a href=""
+                      >Islas de la sombra</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='ixtal']");
-                      }}>Ixtal</a>
-                    <a href=""
+                      }}>Ixtal</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='jonia']");
                       }}
-                      >Jonia</a>
-                    <a href=""
+                      >Jonia</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='noxus']");
                       }}
-                      >Noxus</a>
-                    <a href=""
+                      >Noxus</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='piltover']");
                       }}
-                      >Piltóver</a>
-                    <a href=""
+                      >Piltóver</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='shurima']");
                       }}
-                      >Shurima</a>
-                    <a href=""
+                      >Shurima</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='targon']");
                       }}
-                      >Targón</a>
-                    <a href=""
+                      >Targón</button>
+                    <button
                     onClick={() => {
                         grid.filter("[data-categoria='zaun']");
                       }}
-                      >Zaun</a>            
+                      >Zaun</button>            
                 </div>
                 <div className='grid' id="grid">
                     <div className='card card-cr item'
