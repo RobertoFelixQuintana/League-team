@@ -72,17 +72,17 @@ export default function Champions(){
                     </div>
                 </div>
                 <div className="categorias" id="categorias">
-                    <a href="#" class="active"
+                    <a href="" class="active"
                     onClick={() => {
                       grid.filter("[data-categoria]");
                       }}
                       >Todas</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='aguasturbias']");
                       }}
                       >Aguasturbias</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='ciudad de bandle']");
                       }}
@@ -92,50 +92,50 @@ export default function Champions(){
                         grid.filter("[data-categoria='demacia']");
                       }}
                       >Demacia</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='el freljord']");
                       }}>El Fréljord</a>              
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='el vacio']");
                       }}
                       >El vacio</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='islas de la sombra']");
                       }}
                       >Islas de la sombra</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='ixtal']");
                       }}>Ixtal</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='jonia']");
                       }}
                       >Jonia</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='noxus']");
                       }}
                       >Noxus</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='piltover']");
                       }}
                       >Piltóver</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='shurima']");
                       }}
                       >Shurima</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='targon']");
                       }}
                       >Targón</a>
-                    <a href="#"
+                    <a href=""
                     onClick={() => {
                         grid.filter("[data-categoria='zaun']");
                       }}
